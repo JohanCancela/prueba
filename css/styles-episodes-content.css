@@ -1,6 +1,20 @@
 .trailer,
 .episode-uno,
-.episode-dos {
+.episode-dos,
+.episode-tres,
+.episode-cuatro,
+.episode-cinco,
+.episode-seis,
+.episode-siete,
+.episode-ocho,
+.episode-nueve,
+.episode-diez,
+.episode-once,
+.episode-doce,
+.episode-trece,
+.episode-catorce,
+.episode-quince,
+.episode-dieciseis {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -67,7 +81,21 @@
 }
 
 .content-episode-uno,
-.content-episode-dos {
+.content-episode-dos,
+.content-episode-tres,
+.content-episode-cuatro,
+.content-episode-cinco,
+.content-episode-seis,
+.content-episode-siete,
+.content-episode-ocho,
+.content-episode-nueve,
+.content-episode-diez,
+.content-episode-once,
+.content-episode-doce,
+.content-episode-trece,
+.content-episode-catorce,
+.content-episode-quince,
+.content-episode-dieciseis {
     width: 1280px;
     height: 720px;
 }
@@ -78,10 +106,30 @@ iframe {
     outline: none;
 }
 
+h2 {
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+}
+
 .close,
 .close-list,
 .close-uno,
-.close-dos {
+.close-dos,
+.close-tres,
+.close-cuatro,
+.close-cinco,
+.close-seis,
+.close-siete,
+.close-ocho,
+.close-nueve,
+.close-diez,
+.close-once,
+.close-doce,
+.close-trece,
+.close-catorce,
+.close-quince,
+.close-dieciseis {
     width: 50px;
     position: absolute;
     top: 30px;
@@ -92,25 +140,43 @@ iframe {
 
 @media screen and (max-width: 768px) {
     .trailer .content-iframe {
-        width: 530px;
-        height: 305px;
+        width: 360px;
+        height: 265px;
     }
 
-    .content-episode-uno {
-        width: 530px;
-        height: 305px;
+    .content-episode-uno,
+    .content-episode-dos,
+    .content-episode-tres,
+    .content-episode-cuatro,
+    .content-episode-cinco,
+    .content-episode-seis,
+    .content-episode-siete,
+    .content-episode-ocho,
+    .content-episode-nueve,
+    .content-episode-diez,
+    .content-episode-once,
+    .content-episode-doce,
+    .content-episode-trece,
+    .content-episode-catorce,
+    .content-episode-quince,
+    .content-episode-dieciseis {
+        width: 360px;
+        height: 265px;
     }
 
-    .content-iframe iframe {
+    .list-episodes {
+        width: 250px;
+    }
+
+    iframe {
         width: 100%;
         height: 100%;
         outline: none;
     }
 
-    .content-episode-uno iframe {
-        width: 100%;
-        height: 100%;
-        outline: none;
+    h2 {
+        color: #333;
+        font-size: 50px;
     }
 }
 
@@ -120,20 +186,23 @@ iframe {
         height: 515px;
     }
 
-    .content-episode-uno {
+    .content-episode-uno,
+    .content-episode-dos,
+    .content-episode-tres,
+    .content-episode-cuatro,
+    .content-episode-cinco,
+    .content-episode-seis,
+    .content-episode-siete,
+    .content-episode-ocho,
+    .content-episode-nueve,
+    .content-episode-diez,
+    .content-episode-once,
+    .content-episode-doce,
+    .content-episode-trece,
+    .content-episode-catorce,
+    .content-episode-quince,
+    .content-episode-dieciseis {
         width: 760px;
         height: 515px;
-    }
-
-    .content-iframe iframe {
-        width: 100%;
-        height: 100%;
-        outline: none;
-    }
-
-    .content-episode-uno iframe {
-        width: 100%;
-        height: 100%;
-        outline: none;
     }
 }
